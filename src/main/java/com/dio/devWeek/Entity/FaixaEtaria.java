@@ -15,7 +15,7 @@ import javax.persistence.*;
 public class FaixaEtaria {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    @Column(nullable = false)
+    @Column(nullable = false, updatable = false)
 
     private Long id;
     private Integer faixa_i;

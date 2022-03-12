@@ -15,10 +15,10 @@ import javax.persistence.*;
 @AllArgsConstructor
 public class Regiao {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(nullable = false)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @Column(nullable = false, updatable = false)
 
     private Long id;
     private String regiao;
-    private Long qnt_exames;
+    private Integer total_exames;
 }
