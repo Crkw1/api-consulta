@@ -1,6 +1,6 @@
-# Projeto de uma API para PHILIPS DEV WEEK.
+# Projeto de uma API de consulta para PHILIPS DEV WEEK.
 
-### Projeto utilizando os seguintes funções. ###
+### Projeto utilizando os seguintes dependencias. ###
 
 * Java
 * Spring Boot
